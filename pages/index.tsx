@@ -3,12 +3,17 @@ import Head from "next/head";
 import NavBar from "../components/Navbar";
 import Intro from "../components/Intro";
 import About from "../components/About";
+import Education from "../components/Education";
 
 const Index: React.FC = () => {
 	return (
 		<div className="body">
 			<Head>
 				<link rel="stylesheet" href="/index/index.css" />
+				<script
+					src="https://kit.fontawesome.com/767858f8a7.js"
+					crossOrigin="anonymous"
+				></script>
 				<link
 					rel="stylesheet"
 					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -19,6 +24,7 @@ const Index: React.FC = () => {
 			<NavBar />
 			<Intro />
 			<About />
+			<Education />
 		</div>
 	);
 };

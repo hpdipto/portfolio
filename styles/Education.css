@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+.education-top {
+  margin-top: 15vh;
+  margin-left: 15px;
+}
+
+.education {
+  background-color: #073642;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.education-title {
+  font-family: "DM Serif Display";
+  color: #839496;
+  width: 500px;
+  font-size: 3rem;
+  border-bottom: 1px solid #839496;
+  line-height: 0.1em;
+}
+
+.education-title-text {
+  background: #073642;
+  padding: 0 10px;
+}
+
+.icon {
+  column-width: 10px;
+}
+
+.college {
+  margin-top: 50px;
+  color: #93a1a1;
+  font-family: "Noto Sans JP";
+  margin-left: 25px;
+}
+
+.college-name {
+  font-size: 1.5rem;
+  margin-top: -10px;
+}
+
+.college-title {
+  font-size: 1.2rem;
+}
+
+.college-degree {
+  font-size: 1rem;
+}
+
+.v {
+  border-left: 1px solid #93a1a1;
+  height: 24.7vh;
+  margin-left: 60%;
+}
+
+ul {
+  list-style: none;
+}
+
+.certificates {
+  color: #93a1a1;
+  margin-left: 25px;
+}
+
+.certificate {
+  margin-top: 50px;
+}
+
+.certificate-name {
+  font-size: 1.5rem;
+  margin-top: -10px;
+}
+
+.certificate-institute {
+  font-family: "Roboto";
+  font-size: 1.3rem;
+  margin-top: -20px;
+}
+
+.table {
+  color: #93a1a1;
+  margin-top: -20px;
+  font-size: 0.9rem;
+}
+
+td {
+  width: 10%;
+}
+
+.skill-icon {
+  margin-right: 5px;
+}
