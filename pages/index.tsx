@@ -6,6 +6,7 @@ import About from "../components/About";
 import Education from "../components/Education";
 import Works from "../components/Works";
 import Contacts from "../components/Contacts";
+import Sidebar from "../components/Sidebar";
 
 const FullSite: React.FC = () => {
 	return (
@@ -36,6 +37,8 @@ const Index: React.FC = () => {
 				/>
 			</Head>
 			<NavBar />
+			<Sidebar contents={<FullSite />} />
+			{/* <FullSite /> */}
 		</div>
 	);
 };

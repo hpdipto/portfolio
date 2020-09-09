@@ -94,7 +94,7 @@ const Works: React.FC = () => {
                       rel="noopener noreferrer"
                     >
                       <i
-                        class="fa fa-github project-link-icon"
+                        className="fa fa-github project-link-icon"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -179,7 +179,7 @@ const Works: React.FC = () => {
                       rel="noopener noreferrer"
                     >
                       <i
-                        class="fa fa-github project-link-icon"
+                        className="fa fa-github project-link-icon"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -192,7 +192,7 @@ const Works: React.FC = () => {
                       rel="noopener noreferrer"
                     >
                       <i
-                        class="fa fa-external-link project-link-icon"
+                        className="fa fa-external-link project-link-icon"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -259,7 +259,7 @@ const Works: React.FC = () => {
                       rel="noopener noreferrer"
                     >
                       <i
-                        class="fa fa-github project-link-icon"
+                        className="fa fa-github project-link-icon"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -272,7 +272,7 @@ const Works: React.FC = () => {
                       rel="noopener noreferrer"
                     >
                       <i
-                        class="fa fa-external-link project-link-icon"
+                        className="fa fa-external-link project-link-icon"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -300,7 +300,7 @@ const Works: React.FC = () => {
                       rel="noopener noreferrer"
                     >
                       <i
-                        class="fa fa-github project-link-icon"
+                        className="fa fa-github project-link-icon"
                         aria-hidden="true"
                       ></i>
                     </a>
@@ -342,7 +342,7 @@ const Works: React.FC = () => {
                       rel="noopener noreferrer"
                     >
                       <i
-                        class="fa fa-github project-link-icon"
+                        className="fa fa-github project-link-icon"
                         aria-hidden="true"
                       ></i>
                     </a>
