@@ -1,0 +1,89 @@
+.side-bar {
+  background-color: #073642;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.fa {
+  font-size: 1.3rem !important;
+  transition-duration: 0.5s;
+  color: #93a1a1;
+}
+
+.fa:hover {
+  font-size: 1.5rem !important;
+  color: #64ffda !important;
+  cursor: pointer;
+}
+
+/*sticky sidebar left*/
+.social-icons {
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  margin-left: 35px;
+}
+
+.single-social {
+  margin-bottom: 20px;
+  margin-left: 50%;
+}
+
+.v1 {
+  border-left: 1px solid #93a1a1;
+  height: 24.7vh;
+  margin-left: 20px;
+}
+
+/*sticky sidebar right*/
+.mail-group {
+  position: fixed;
+  bottom: 0;
+}
+
+.v2 {
+  border-left: 1px solid #93a1a1;
+  height: 25vh;
+  margin-left: 10px;
+}
+
+.mail-address {
+  font-family: Inconsolata;
+  font-size: 1.1rem;
+  color: #93a1a1;
+  cursor: pointer;
+  writing-mode: vertical-rl;
+  margin-bottom: 20px;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.mail-address:hover {
+  font-family: Inconsolata;
+  font-size: 1.15rem;
+  color: #64ffda;
+  writing-mode: vertical-rl;
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 750px) {
+  .social-panel {
+    display: none;
+  }
+
+  .mail-panel {
+    display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  .v1 {
+    display: none;
+  }
+
+  .v2 {
+    display: none;
+  }
+}

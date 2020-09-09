@@ -5,6 +5,19 @@ import Intro from "../components/Intro";
 import About from "../components/About";
 import Education from "../components/Education";
 import Works from "../components/Works";
+import Contacts from "../components/Contacts";
+
+const FullSite: React.FC = () => {
+	return (
+		<div>
+			<Intro />
+			<About />
+			<Education />
+			<Works />
+			<Contacts />
+		</div>
+	);
+};
 
 const Index: React.FC = () => {
 	return (
@@ -23,10 +36,6 @@ const Index: React.FC = () => {
 				/>
 			</Head>
 			<NavBar />
-			<Intro />
-			<About />
-			<Education />
-			<Works />
 		</div>
 	);
 };

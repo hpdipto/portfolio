@@ -1,0 +1,66 @@
+.contact-top {
+  margin-top: 15vh;
+  margin-left: 15px;
+}
+
+.contact {
+  background-color: #073642;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.contact-title {
+  font-family: "DM Serif Display";
+  color: #839496;
+  width: 500px;
+  font-size: 3rem;
+  border-bottom: 1px solid #839496;
+  line-height: 0.1em;
+}
+
+.contact-title-text {
+  background: #073642;
+  padding: 0 10px;
+}
+
+.contact-card {
+  background-color: transparent !important;
+  width: 70%;
+  margin-top: 20vh;
+  margin-left: 10vw;
+}
+
+.contact-text {
+  font-family: "Roboto Mono";
+  color: #839496;
+}
+
+.hello-button {
+  color: #64ffda;
+  border-color: #64ffda;
+}
+
+.hello-button:hover {
+  color: #64ffda;
+  border-color: #64ffda;
+  background-color: rgba(100, 255, 218, 0.07);
+}
+
+.contact-details {
+  margin-bottom: 200px;
+}
+
+.page-footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.page-footer a {
+  color: #586e75;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  color: #64ffda;
+  text-decoration: none;
+}
