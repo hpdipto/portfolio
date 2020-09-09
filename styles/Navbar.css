@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.navbar-brand {
+  color: #e4f2f0 !important;
+}
+
+.nav-link {
+  color: #fdf6e3 !important;
+  font-family: "Roboto Mono";
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  color: #64ffda !important;
+  font-family: "Roboto Mono";
+}
+
+.fa {
+  color: #fdf6e3;
+  font-size: 1.1rem !important;
+}
+
+.resume-button {
+  border: 1px solid #fdf6e3;
+  border-radius: 5px;
+}
+
+.resume-button:hover {
+  background-color: rgba(100, 255, 218, 0.09);
+}
