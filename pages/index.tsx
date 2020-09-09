@@ -24,6 +24,7 @@ const Index: React.FC = () => {
 	return (
 		<div className="body">
 			<Head>
+				<link rel="icon" href="/icon.png" type="image/x-icon" />
 				<link rel="stylesheet" href="/index/index.css" />
 				<script
 					src="https://kit.fontawesome.com/767858f8a7.js"
