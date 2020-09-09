@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+.work-top {
+  margin-top: 15vh;
+  margin-left: -5px; /*we had a padding of 20 for this section*/
+}
+
+.works {
+  background-color: #073642;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.work-title {
+  font-family: "DM Serif Display";
+  color: #839496;
+  width: 500px;
+  font-size: 3rem;
+  border-bottom: 1px solid #839496;
+  line-height: 0.1em;
+}
+
+.work-title-text {
+  background: #073642;
+  padding: 0 10px;
+}
+
+.project {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 20px !important;
+  color: #839496;
+}
+
+.tool {
+  margin-right: 10px;
+  font-family: "Inconsolata";
+}
+
+.badge {
+  background-color: #2aa198 !important;
+  color: #fdf6e3;
+}
+
+/*need update for mobile view*/
+.project-img-left {
+  opacity: 0.7;
+  position: absolute;
+  width: 60vw;
+  left: 20px;
+}
+
+.project-img-right {
+  opacity: 0.7;
+  position: absolute;
+  width: 60vw;
+  right: 20px;
+}
+
+.project-img-left:hover,
+.project-img-right:hover {
+  opacity: 1;
+}
+
+.project-description {
+  margin-top: 40vh;
+  width: 40vw;
+}
+/*need update for mobile view*/
+
+.project-title-link {
+  color: #839496 !important;
+}
+
+.project-title-link:hover {
+  text-decoration: none !important;
+  color: #64ffda !important;
+}
+
+.project-link {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.project-link-icon {
+  font-size: 1.7rem !important;
+}
+
+.card {
+  background-color: transparent !important;
+}
+
+.card-body {
+  background-color: #002b36 !important;
+  font-family: "Roboto Mono";
+}
+
+.card-header {
+  background-color: transparent !important;
+}
+
+.card-header h4 {
+  font-family: "DM Serif Display";
+}
+
+.card-header p {
+  font-family: "Inconsolata";
+  color: #64ffda !important;
+}
+
+.card-footer {
+  background-color: transparent !important;
+}
+
+@media (max-width: 750px) {
+  .project-img-left,
+  .project-img-right {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  .project-description {
+    width: 90vw;
+  }
+}
+
+.other-projects {
+  margin-bottom: 50px;
+}
+
+.other-project-title {
+  font-family: "DM Serif Display";
+  color: #839496;
+}
+
+.other-project-text {
+  font-family: "Roboto Mono";
+  color: #839496;
+}
+
+.other-project-card {
+  color: #839496 !important;
+  background-color: #002b36 !important;
+}
+
+.other-project-card:hover {
+  border-color: #64ffda;
+  box-shadow: 0 0 3px 2px #64ffda;
+}
+
+@media (max-width: 750px) {
+  .other-projects {
+    width: 85vw !important;
+  }
+}

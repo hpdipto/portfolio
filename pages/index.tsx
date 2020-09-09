@@ -4,6 +4,7 @@ import NavBar from "../components/Navbar";
 import Intro from "../components/Intro";
 import About from "../components/About";
 import Education from "../components/Education";
+import Works from "../components/Works";
 
 const Index: React.FC = () => {
 	return (
@@ -25,6 +26,7 @@ const Index: React.FC = () => {
 			<Intro />
 			<About />
 			<Education />
+			<Works />
 		</div>
 	);
 };
