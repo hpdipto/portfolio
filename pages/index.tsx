@@ -1,6 +1,7 @@
 import * as React from "react";
 import Head from "next/head";
 import NavBar from "../components/Navbar";
+import About from "../components/About";
 
 const Index: React.FC = () => {
 	return (
@@ -15,6 +16,7 @@ const Index: React.FC = () => {
 				/>
 			</Head>
 			<NavBar />
+			<About />
 		</div>
 	);
 };
