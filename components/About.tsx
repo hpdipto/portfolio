@@ -3,7 +3,7 @@ import * as React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/About.css";
 
-function About() {
+const About: React.FC = () => {
   return (
     <div className="about" id="about">
       <div className="about-top">
@@ -90,6 +90,6 @@ function About() {
       </div>
     </div>
   );
-}
+};
 
 export default About;

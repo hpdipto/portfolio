@@ -1,6 +1,7 @@
 import * as React from "react";
 import Head from "next/head";
 import NavBar from "../components/Navbar";
+import Intro from "../components/Intro";
 import About from "../components/About";
 
 const Index: React.FC = () => {
@@ -16,6 +17,7 @@ const Index: React.FC = () => {
 				/>
 			</Head>
 			<NavBar />
+			<Intro />
 			<About />
 		</div>
 	);
