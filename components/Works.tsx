@@ -1,9 +1,10 @@
 import * as React from "react";
 import Head from "next/head";
+import Link from "next/link";
 // import "bootstrap/dist/css/bootstrap.css";
 import "../styles/Works.css";
 
-const Works: React.FC = () => {
+const Works = () => {
   return (
     <div>
       <Head>
@@ -30,7 +31,6 @@ const Works: React.FC = () => {
             <a
               className="project-title-link"
               href="https://photopoll.herokuapp.com/"
-              alt="live project"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -49,7 +49,6 @@ const Works: React.FC = () => {
                   <a
                     className="project-title-link"
                     href="https://photopoll.herokuapp.com/"
-                    alt="live project"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -85,7 +84,6 @@ const Works: React.FC = () => {
                   <span className="project-link">
                     <a
                       href="https://github.com/hpdipto/photo-voting-app"
-                      alt="photo poll github"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -98,7 +96,6 @@ const Works: React.FC = () => {
                   <span className="project-link">
                     <a
                       href="https://photopoll.herokuapp.com/"
-                      alt="live project"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -119,7 +116,6 @@ const Works: React.FC = () => {
             <a
               className="project-title-link"
               href="https://github-job-basket.herokuapp.com/"
-              alt="live project"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -138,7 +134,6 @@ const Works: React.FC = () => {
                   <a
                     className="project-title-link"
                     href="https://github-job-basket.herokuapp.com/"
-                    alt="live project"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -170,7 +165,6 @@ const Works: React.FC = () => {
                   <span className="project-link">
                     <a
                       href="https://github.com/hpdipto/github-job-basket/"
-                      alt="job basket github"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -183,7 +177,6 @@ const Works: React.FC = () => {
                   <span className="project-link">
                     <a
                       href="https://github-job-basket.herokuapp.com/"
-                      alt="live project"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -204,7 +197,6 @@ const Works: React.FC = () => {
             <a
               className="project-title-link"
               href="https://personal-pomodoro.herokuapp.com/"
-              alt="live project"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -223,7 +215,6 @@ const Works: React.FC = () => {
                   <a
                     className="project-title-link"
                     href="https://github-job-basket.herokuapp.com/"
-                    alt="live project"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -250,7 +241,6 @@ const Works: React.FC = () => {
                   <span className="project-link">
                     <a
                       href="https://github.com/hpdipto/pomodoro-clock/"
-                      alt="pomodoro clock github"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -263,7 +253,6 @@ const Works: React.FC = () => {
                   <span className="project-link">
                     <a
                       href="https://personal-pomodoro.herokuapp.com/"
-                      alt="live project"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -291,7 +280,6 @@ const Works: React.FC = () => {
                   <span className="project-link">
                     <a
                       href="https://github.com/hpdipto/nlp_based_robot_navigation/"
-                      alt="pomodoro clock github"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -333,7 +321,6 @@ const Works: React.FC = () => {
                   <span className="project-link">
                     <a
                       href="https://github.com/hpdipto/auto-snake/"
-                      alt="auto snake github"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
