@@ -1,10 +1,9 @@
 import * as React from "react";
 import Head from "next/head";
-import Link from "next/link";
 // import "bootstrap/dist/css/bootstrap.css";
 import "../styles/Works.css";
 
-const Works = () => {
+const Works: React.FC = () => {
   return (
     <div>
       <Head>
