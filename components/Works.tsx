@@ -56,7 +56,7 @@ const Works: React.FC = () => {
                 </h4>
               </div>
               <div className="card-body">
-                <p align="right">
+                <p data-align="right">
                   A simple photo voting app where a user can register and host a
                   poll with an unique Poll Id and Poll Passcode. <br />
                   Then using the shared Poll Id and Poll Passcode, another user
@@ -141,7 +141,7 @@ const Works: React.FC = () => {
                 </h4>
               </div>
               <div className="card-body">
-                <p align="left">
+                <p data-align="left">
                   GitHub Jobs API is used here with a pretty UI. A user can
                   logged in with a Google account to save a job that. <br />
                   Later the user can view the saved job in his/her basket.
@@ -222,7 +222,7 @@ const Works: React.FC = () => {
                 </h4>
               </div>
               <div className="card-body">
-                <p align="right">
+                <p data-align="right">
                   A simple pomodoro clock. Here a user can tune break time and
                   session time.
                 </p>
