@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import "bootstrap/dist/css/bootstrap.css";
-import "@fortawesome/fontawesome-free/js/fontawesome";
+// import "@fortawesome/fontawesome-free/js/fontawesome";
 import "../styles/About.css";
 
 const About: React.FC = () => {

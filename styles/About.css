@@ -63,7 +63,7 @@
 }
 
 .skill-icon {
-  color: #64ffda;
+  color: #64ffda !important;
   margin-right: 5px;
 }
 

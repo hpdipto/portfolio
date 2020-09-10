@@ -3,10 +3,6 @@ import Head from "next/head";
 // import "bootstrap/dist/css/bootstrap.css";
 import "../styles/Works.css";
 
-// import photopoll from "./photos/photopoll.png";
-// import jobbasket from "./photos/jobbasket.png";
-// import pomodoro from "./photos/pomodoro.png";
-
 const Works: React.FC = () => {
   return (
     <div>

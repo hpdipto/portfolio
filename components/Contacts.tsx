@@ -44,6 +44,14 @@ function Contact() {
 
         <div className="page-footer text-center mb-3">
           <a
+            href="https://github.com/bchiang7/v4"
+            target="_blank"
+            rel="noopener noreffer"
+          >
+            Design concept: bchiang7
+          </a>
+          <br />
+          <a
             href="https://github.com/hpdipto/portfolio"
             target="_blank"
             rel="noopener noreferrer"

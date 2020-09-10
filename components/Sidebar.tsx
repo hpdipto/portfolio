@@ -3,7 +3,13 @@ import Head from "next/head";
 // import 'bootstrap/dist/css/bootstrap.css';
 import "../styles/Sidebar.css";
 
-const Sidebar: React.FC = ({ contents }) => {
+type Props = {
+  contents: any;
+};
+
+const Sidebar: React.FC<Props> = (props) => {
+  const { contents } = props;
+
   return (
     <div>
       <Head>
